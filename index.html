@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Drum Machine</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="root"></div>
+
+  <!-- React, ReactDOM e Babel (para uso em desenvolvimento) -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- Script React com type text/babel -->
+  <script type="text/babel" src="DrumMachine.jsx"></script>
+
+  <script type="text/babel">
+    ReactDOM.createRoot(document.getElementById("root")).render(<DrumMachine />);
+  </script>
+</body>
+</html>
